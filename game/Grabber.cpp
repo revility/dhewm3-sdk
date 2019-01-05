@@ -705,7 +705,7 @@ bool idGrabber::grabbableAI( const char *aiName ) {
 
 	if (!idStr::Cmpn( aiName, "flying_deadsoul", 15 ) ||
 		!idStr::Cmpn( aiName, "demon_trite", 11 ) ||
-		!idStr::Cmp( aiName, "flying_lostsoul" ) || //there are no ROE assets in Ruiner.  This includes the forgotten. REVILITY
+		!idStr::Cmpn( aiName, "flying_lostsoul", 15 ) || //rev 2019
 		!idStr::Cmp( aiName, "demon_cherub" ) ||
 		!idStr::Cmp( aiName, "demon_tick" )) {
 
